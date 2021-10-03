@@ -10,16 +10,18 @@
     <title>Result</title>
     <style>
         .container{
-            padding-top: 180px;
             text-align: center;
             background-color: green;
-            height: 400px;
             margin-top: 30px;
             width: 700px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: white;
             font-style: oblique;
             margin-left: 310px;
+            padding-bottom: 30px;
+        }
+        .final_image{
+            text-align: center;
         }
     </style>
 </head>
@@ -27,11 +29,15 @@
     <h1 style="text-align: center;">This is result page</h1>
     <div class="container">
         {% load static%}
-        <img src="{% static 'img.jpg' %}" alt="load Image">
+        
         <br>
         {% for r,p in res %}
-            {{r}} {{p}} %<br>
+            {{r}} <br> {{p}} %<br>
         {% endfor %}
+    </div>
+    <br>
+    <div class="final_image">
+        <img src="{% static 'img.jpg' %}" alt="load Image" width="950" height="600">
     </div>
     
 </body>
