@@ -1,1 +1,1 @@
-web: gunicorn ObjectIdentity.wsgi.application
+web: gunicorn ObjectIdentity.wsgi
