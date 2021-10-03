@@ -1,1 +1,1 @@
-web: gunicorn ObjectIdentity.wsgi
+web: gunicorn imgUpload:app
