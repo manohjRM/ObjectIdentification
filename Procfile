@@ -1,1 +1,1 @@
-web: uvicorn example:app --reload --port 5000
+web: gunicorn ObjectIdentity.wsgi
