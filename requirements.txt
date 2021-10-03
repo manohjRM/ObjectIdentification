@@ -12,10 +12,7 @@ google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.41.0
-<<<<<<< HEAD
-=======
 gunicorn==20.1.0
->>>>>>> 1b8e17bf8ce74f70fc32eacf400ac40186a2d9c7
 h5py==3.1.0
 idna==3.2
 keras==2.6.0
